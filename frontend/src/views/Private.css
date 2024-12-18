@@ -1,0 +1,42 @@
+.Private {
+    width: 100%;
+    height: calc(100vh - 50px - 50px);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Private input {
+    width: 30%;
+    height: 40px;
+    margin: 24px;
+}
+
+.Private button {
+    width: 150px;
+    height: 40px;
+    background-color: #aad7ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Private button:hover {
+    background-color: #6ebcff;
+}
+
+@media screen and (max-width: 768px) {
+    .Private input {
+        width: 50%;
+        height: 45px;
+        margin: 36px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Private input {
+        width: 64%;
+        height: 48px;
+    }
+}
